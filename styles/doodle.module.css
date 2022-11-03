@@ -1,0 +1,16 @@
+
+.chart ul li{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+    margin-top: 20px;
+}
+
+
+.chart ul li {
+    list-style-image: url('/images/icon/dot.png');
+    padding: 0px 5px;
+  }

@@ -1,0 +1,46 @@
+
+.input_wrapper input{
+    max-width: 570px;
+    width: 100%;
+    margin: auto;
+    padding: 17px 60px;
+    background-image: url('/images/icon/Search.png');
+    background-position: 5%;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    border-radius: 8px;
+
+}
+.input_wrapper input::placeholder{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4D4D4D; 
+}
+
+.banner_moto{
+    font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+text-align: center;
+color: #4D4D4D;
+}
+
+
+@media screen and (max-width:768px){
+    .input_wrapper input{
+        width: 70%;
+        margin: auto;
+        padding: 10px 65px;
+    }
+
+    .animated_banner .animate_star{
+        top: 90px !important; 
+    }
+    
+}

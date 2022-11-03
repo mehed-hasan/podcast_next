@@ -1,0 +1,128 @@
+
+.card_group{
+    max-width: 1211px;
+    margin: auto;
+}
+
+.card_group .card4{
+    padding: 50px 20px;
+}
+
+.card_group .card4_details p{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    margin-top: 20px;
+    text-align: center;
+}
+#history .history_wrapper{
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+}
+
+#founder .card3{
+  max-width: 520px;
+  width: 100%;
+  margin: auto;
+}
+
+#idea .heading_group{
+  max-width: 744px;
+  width: 100%;
+  margin: auto;
+}
+
+.idea_wrapper p{
+  max-width: 427px;
+  margin: auto;
+}
+.idea_wrapper svg{
+  height: auto !important;
+  margin-bottom: 0px;
+  animation: float 4s ease-in-out infinite;
+}
+
+
+
+
+
+#contact .form{
+  max-width: 856px;
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+#contact label{
+  font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 160%;
+color: #000000;
+
+}
+
+#contact input{
+  border: 1.5px solid #000000;
+border-radius: 8px;
+padding: 15px 10px;
+}
+
+#contact textarea{
+  border: 1.5px solid #000000;
+border-radius: 8px;
+padding: 15px 10px;
+}
+#contact ::placeholder{
+  font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+}
+
+
+#contact  .svg1{
+  position: absolute;
+  top: -150px;
+  left: 15px;
+
+}
+
+#contact  .svg2{
+  position: absolute;
+  left: -250px;
+  bottom: 0px;
+  animation: float 7s ease-in-out infinite;
+
+}
+
+
+@media screen and (max-width:992px){
+  .card3 .card_details p{
+    font-size: 14px !important;
+  }
+  .card3 .card_heading h3{
+    font-size: 16px;
+  }
+  .card3 .social_img img{
+    width: 18px !important;
+  }
+  .card3 .socials span{
+    font-size: 13px !important;
+  }
+}
+
+@media screen and (max-width:768px){
+  .card3 .card_bottom{
+    padding-bottom: 25px;
+  }
+  #contact input {
+    padding: 8px 10px;
+}
+
+}

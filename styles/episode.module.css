@@ -1,0 +1,29 @@
+
+
+.episod_wrapper{
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+}
+.banner_card{
+    max-width: 540px;
+    width: 100%;
+    margin: auto;
+    min-height: 472px;
+    width: 100%;
+}
+.episod_wrapper .img_card_wrapper{
+    max-width: 416px;
+    width: 100%;
+    margin: auto;
+}
+
+.episod_wrapper .card{
+    box-shadow: none;
+}
+
+
+ul.nav-tabs{
+    display: flex;
+    justify-content: space-between;
+}

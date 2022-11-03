@@ -1,0 +1,144 @@
+[{
+        "id": 1,
+        "episode_no": 1,
+        "title": "Are you a Perplexed Mind Person?",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
+        "cardThumbnail": "card_img.png",
+        "cat": "Women’s Rights",
+        "cardLink": "#",
+        "link1": "#",
+        "link2": "#",
+        "hostedBy": "John Smith",
+        "hoster": [{
+                "id": 1,
+                "image": "avatar1.png",
+                "profileLink": "#"
+            },
+            {
+                "id": 2,
+                "image": "avatar2.png",
+                "profileLink": "#"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "episode_no": 2,
+        "title": "Are you a Perplexed Mind Person?",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
+        "cardThumbnail": "card_img2.png",
+        "cat": "Tesla Autopilot",
+        "type": "business",
+        "cardLink": "#",
+        "link1": "#",
+        "link2": "#",
+        "hostedBy": "Abu Bokor",
+        "hoster": [{
+                "id": 1,
+                "image": "avatar1.png",
+                "profileLink": "#"
+            },
+            {
+                "id": 2,
+                "image": "avatar2.png",
+                "profileLink": "#"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "episode_no": 3,
+        "title": "Are you a Perplexed Mind Person?",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
+        "cardThumbnail": "card_img3.png",
+        "type": "business",
+        "cardLink": "#",
+        "cat": "Self–confidence",
+        "link1": "#",
+        "hostedBy": "Ahmad",
+        "hoster": [{
+                "id": 1,
+                "image": "avatar1.png",
+                "profileLink": "#"
+            },
+            {
+                "id": 2,
+                "image": "avatar2.png",
+                "profileLink": "#"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "episode_no": 4,
+        "title": "Are you a Perplexed Mind Person?",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
+        "cardThumbnail": "card_img4.png",
+        "type": "comedy",
+        "cardLink": "#",
+        "cat": "Perplexed Mind",
+        "link1": "#",
+        "link2": "#",
+        "hostedBy": "Mehedi Hasan",
+        "hoster": [{
+                "id": 1,
+                "image": "avatar1.png",
+                "profileLink": "#"
+            },
+            {
+                "id": 2,
+                "image": "avatar2.png",
+                "profileLink": "#"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "episode_no": 5,
+        "title": "Are you a Perplexed Mind Person?",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
+        "cardThumbnail": "card5.png",
+        "cat": "Self–confidence",
+        "type": "education",
+        "cardLink": "#",
+        "link1": "#",
+        "link2": "#",
+        "hostedBy": "John Law",
+        "hoster": [{
+                "id": 3,
+                "image": "avatar1.png",
+                "profileLink": "#"
+            },
+            {
+                "id": 4,
+                "image": "avatar2.png",
+                "profileLink": "#"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "episode_no": 6,
+        "title": "Are you a Perplexed Mind Person?",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
+        "cardThumbnail": "card_img2.png",
+        "cat": "Inventions",
+        "type": "health",
+        "cardLink": "#",
+        "link1": "#",
+        "link2": "#",
+        "hostedBy": "John Smith",
+        "hoster": [{
+                "id": 1,
+                "image": "avatar1.png",
+                "profileLink": "#"
+            },
+            {
+                "id": 2,
+                "image": "avatar2.png",
+                "profileLink": "#"
+            }
+        ]
+    }
+
+]
