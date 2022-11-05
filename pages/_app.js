@@ -1,17 +1,16 @@
 import "../styles/globals.css";
 import './../components/common/common.css'
-// import "../js/test.js";
-// import "../js/parallax.js";
+import "../js/parallax.js";
 import Layout from "../layouts/Layout";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-import "../styles/about.module.css";
-import "../styles/parallax.module.css";
-import '../styles/news.module.css';
-import '../styles/doodle.module.css';
-import '../styles/episode.module.css';
+import "../styles/about.css";
+import "../styles/parallax.css";
+import '../styles/news.css';
+import '../styles/doodle.css';
+import '../styles/episode.css';
 
 function MyApp({ Component, pageProps }) {
   // data aos

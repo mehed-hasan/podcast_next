@@ -42,7 +42,7 @@ function Card2({ grid, data }) {
                 </div>
               </div>
               <div className="card_footer d-flex flex-wrap justify-content-between mt-2 mt-md-4 gap-2">
-                <div className="tag_group">
+                <div className="tag_group gap-2">
                   {data.tags.length > 0 && data.tags?.map((tag) => (
                     <BorderedBtn
                       key={tag.id}

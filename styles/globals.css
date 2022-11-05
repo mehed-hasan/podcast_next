@@ -101,7 +101,9 @@
 }
 
 
-
+#article_news .card2 .bordered_btn{
+  margin-right: 5px;
+}
 
 /* Media query starting from here  */
 @media screen and (max-width:1200px){

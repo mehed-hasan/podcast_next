@@ -41,9 +41,9 @@ function ImgCard({ data, hasShadowBlue, isPlaying }) {
         <div className="btn_group tags ms-3 mt-4 ml-2 pb-2">
           <div className="d-flex gap-1">
             <span className="fw-bold">Tags : </span>
-{/* 
+
             <BorderedBtn link={data.link1} btnText={"mind-behaviour"} />
-            <BorderedBtn link={data.link2} btnText={"health"} /> */}
+            <BorderedBtn link={data.link2} btnText={"health"} />
           </div>
         </div>
       ) : (

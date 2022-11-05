@@ -145,8 +145,8 @@ function Footer() {
                     <Image
                       src="/images/icon/Spotify_logo.png"
                       alt=""
-                      width={130}
-                      height={20}
+                      width={80}
+                      height={22}
                     />
                   </Link>
                   <Link href="https://www.youtube.com/" passHref>

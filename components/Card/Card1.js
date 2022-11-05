@@ -1,6 +1,4 @@
-// import shopifyIcon from '../../components/images/icon/spotify_white.png'
-// import podcastIcon from '../../components/images/icon/podcast_white.png'
-// import youtubeIcon from '../../components/images/icon/youtube_white.png'
+
 import BorderedBtn from "../common/BorderdBtn";
 import Link from "next/link";
 import Image from "next/image";
@@ -17,8 +15,6 @@ function card1({ data }) {
             data-aos-duration="1200"
           >
             <div  className="card card1 p-2 p-md-3 mb-3">
-        
-              
                   <div className="card_body ">
                     <div className="row">
                       <div className="col-12 col-lg-4">
@@ -34,7 +30,7 @@ function card1({ data }) {
                             </Link>
                             <Link href="" passHref>
                               <Image
-                                src="/images/icon/podcast_white.png"
+                                src="/images/icon/spotify_white.png"
                                 alt=""
                                 width={100}
                                 height={100}
@@ -42,7 +38,7 @@ function card1({ data }) {
                             </Link>
                             <Link href="" passHref>
                               <Image
-                                src="/images/icon/podcast_white.png"
+                                src="/images/icon/youtube_white.png"
                                 alt=""
                                 width={100}
                                 height={100}
@@ -64,7 +60,9 @@ function card1({ data }) {
                             <h5 className="text-brown fw-bold">
                               Eps. {data.episode_no}
                             </h5>
+                            <Link href={`details/${data.id}`} passHref>
                             <h3 className="text-black fw-bold">{data.title}</h3>
+                            </Link>
                           </div>
                           <div className="card_details mt-1 mt-md-3">
                             <p className="text-dark">{data.details}</p>
@@ -75,9 +73,6 @@ function card1({ data }) {
                   </div>
                   <div className="card_footer d-flex justify-content-between mt-2 mt-md-4">
                     <div className="btn_group d-flex gap-1">
-                      {/* <Link href="#" className="bordered_btn" passHref>mind-behaviour</Link> */}
-                      {/* <BorderedBtn link={data.link1} btnText={"mind-behaviour"} />
-                            <BorderedBtn link={data.link2} btnText={"health"} /> */}
                     </div>
                     <div className="hosters">
                       <span className="fw-bold text-black">Hosted by: </span>
@@ -92,8 +87,8 @@ function card1({ data }) {
                               className="avatar"
                               src={`/images/avatar/${hosters.image}`}
                               alt=""
-                              width={30}
-                              height={30}
+                              width={20}
+                              height={20}
                             />
                           </Link>
                         ))}
