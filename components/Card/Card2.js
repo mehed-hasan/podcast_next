@@ -20,8 +20,8 @@ function Card2({ grid, data }) {
                         className="w-100 img-fluid"
                         src={`/images/cards/${data.thumbnail}`}
                         alt=""
-                        width={100}
-                        height={100}
+                        width={534}
+                        height={315}
                       />
                     </div>
                   </div>

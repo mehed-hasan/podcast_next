@@ -7,6 +7,7 @@ import Image from "next/image";
 import ImgCard from "../../components/Card/ImgCard";
 import LatestEpisodes from "../../components/Episode/LatestEpisodes";
 import Banner1 from "../../components/Banners/Banner1";
+import Head from "next/head";
 
 function EpisodeInfo() {
   const router = useRouter();
@@ -40,6 +41,7 @@ function EpisodeInfo() {
 
   return (
     <>
+    <Head><title>Podcast || Details - {data.id} </title></Head>
       {data ? (
         <>
           <div className="gap_64"></div>

@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import './../components/common/common.css'
 import "../js/parallax.js";
+import "../js/chorki.js";
 import Layout from "../layouts/Layout";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect } from "react";

@@ -10,7 +10,7 @@ function HeroSection() {
       >
         <div className="hero_text text-center mx-auto">
           <h1>
-            <span className="text1">Talk</span>
+            <span className="text1">Talk, </span>
             <span className="text2">Publish</span> and
             <span className="text2">Spread Love</span> to Others can Change the
             World

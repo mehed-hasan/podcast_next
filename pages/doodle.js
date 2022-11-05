@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Comments from "../components/About/Comments";
 import Banner1 from "../components/Banners/Banner1";
 import DoodleBanner from "../components/Doodle/DoodleBanner";
@@ -14,6 +15,7 @@ function Doodle() {
     return ( 
 
         <>
+        <Head>Podcast || Doodle</Head>
          <DoodleBanner/>
          <DoodleRoom/>
          <LatestPost/>

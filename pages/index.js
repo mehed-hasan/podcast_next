@@ -6,16 +6,15 @@ import Membership from "../components/Home/Membership";
 import Episodes from "../components/Home/Episodes";
 import Sponsor from "../components/Home/Sponsor";
 import Article from "../components/Home/Article";
+import Head from "next/head";
 
-// import useTitle from "../hooks/useTitle";
 
 function Index() {
 
-    // useTitle('Home');
    
     return (   
       
-        <>  
+        <>  <Head><title>Podcast || Home</title></Head>
             <HeroSection/>
             <CatSlider />
             <SupportSlider/>
